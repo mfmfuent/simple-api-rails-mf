@@ -10,7 +10,7 @@ class DogosController < ApplicationController
 
   # GET /dogos/1
   def show
-    render json: @dogo,ccccconly: [descripcion]
+    render json: @dogo,only: [descripcion]
   end
 
   # POST /dogos
