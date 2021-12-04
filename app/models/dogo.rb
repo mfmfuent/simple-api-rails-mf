@@ -1,0 +1,2 @@
+class Dogo < ApplicationRecord
+end
